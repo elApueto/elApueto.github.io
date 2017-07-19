@@ -48,7 +48,7 @@ header {
 #description {
 	font-size: 1em;
 	font-weight: 500;
-	margin-bottom: 5%;
+	margin-bottom: 8%;
 }
 
 nav {
@@ -165,14 +165,27 @@ ul#discography-list >  li > ul.album-details {
 	height: 100%;
 	padding-left: 3%;
 	align-items: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
 }
 
-ul#discography-list >  li > ul.album-details > li.album-title {
+
+ul#discography-list >  li > ul.album-details > li {
+	width: 100%;
+}
+
+/*ul#discography-list >  li > ul.album-details > li.album-title {
 	font-size: .9em;
+}*/
+
+ul#discography-list >  li > ul.album-details > li.album-title > a:hover {
+	text-decoration: underline;
 }
 
 ul#discography-list >  li > ul.album-details > li.album-artist {
-	font-size: .9em;
+	font-size: .8em;
 }
 
 ul#discography-list >  li > ul.album-details > li.album-year, ul#discography-list >  li > ul.album-details > li.role {
