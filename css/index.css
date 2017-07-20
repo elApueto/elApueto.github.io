@@ -123,6 +123,10 @@ ul#track-list > li > div.track-title {
 	justify-content: center;
 }
 
+ul#track-list > li > div.track-title:hover {
+	background-color: rgba(220, 220, 220, 0.2)
+} 
+
 ul#track-list > li > div.track-title > span.title {
 	width: 100%;
 	display: flex;
