@@ -157,7 +157,12 @@ ul#discography-list > li > div.album-art {
 	background-color: #323232;
 }
 
-ul#discography-list > li > div.album-art > img {
+ul#discography-list > li > div.album-art > a {
+	display: block;
+	width: 100%;
+}
+
+ul#discography-list > li > div.album-art > a > img {
 	width: 100%;
 }
 
@@ -169,8 +174,8 @@ ul#discography-list >  li > ul.album-details {
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 }
-
 
 ul#discography-list >  li > ul.album-details > li {
 	width: 100%;
@@ -190,6 +195,18 @@ ul#discography-list >  li > ul.album-details > li.album-artist {
 
 ul#discography-list >  li > ul.album-details > li.album-year, ul#discography-list >  li > ul.album-details > li.role {
 	font-size: .8em;
+}
+
+ul#discography-list > li:first-child > ul > li#purchase-songs-sites {
+	position: absolute;
+	bottom: -15px;
+	left: 20px;
+	font-size: .8em;
+} 
+
+ul#discography-list > li:first-child > ul > li#purchase-songs-sites img {
+	height: 14px;
+	margin-right: 3px;
 }
 
 div#bio-container {
