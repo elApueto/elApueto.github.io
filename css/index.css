@@ -228,14 +228,14 @@ img#profile-picture {
 
 div#profile-pic-container {
 	width: 100%;
-	height: 60px;
-	margin-top: 14px;
+/*	height: 60px;
+*/	margin-top: 14px;
 /*	display: flex;
 	justify-content: center;*/
 }
 
 div#profile-pic-container > img {
-	height: 100%;
+	width: 100%;
 }
 
 p#bio-description {
