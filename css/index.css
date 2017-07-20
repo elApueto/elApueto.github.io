@@ -156,7 +156,7 @@ ul#discography-list > li {
 }
 
 ul#discography-list > li#border {
-	margin-top: 15px;
+	margin-top: 30px;
 	margin-bottom: 0;
 	font-size: .9em;
 	display: flex;
