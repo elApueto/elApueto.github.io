@@ -60,8 +60,12 @@ nav > div {
 	padding-bottom: 3px;
 }
 
-nav > div#music {
+nav > div#bio {
 	border-bottom: 3px solid #e0e0e0;
+}
+
+div#music-container {
+	display: none;
 }
 
 ul#music-controls {
@@ -208,10 +212,10 @@ ul#discography-list > li:first-child > ul > li#purchase-songs-sites img {
 	height: 14px;
 	margin-right: 3px;
 }
-
+/*
 div#bio-container {
 	display: none;
-}
+}*/
 
 div#contact-details-container {
 	display: none;
