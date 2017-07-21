@@ -239,14 +239,6 @@ ul#discography-list >  li > ul.album-details > li {
 	width: 100%;
 }
 
-/*ul#discography-list >  li > ul.album-details > li.album-title {
-	font-size: .9em;
-}*/
-
-/*ul#discography-list >  li > ul.album-details > li.album-title > a:hover {
-	text-decoration: underline;
-}*/
-
 ul#discography-list >  li > ul.album-details > li.album, 
 ul#discography-list >  li > ul.album-details > li.track,
 ul#discography-list >  li > ul.album-details > li.youtube-category
@@ -257,13 +249,13 @@ ul#discography-list >  li > ul.album-details > li.youtube-category
 ul#discography-list >  li > ul.album-details > li.genre,
 ul#discography-list >  li > ul.album-details > li.album-role,
 ul#discography-list >  li > ul.album-details > li.track-role {
-	font-size: .6em;
+	font-size: .8em;
 } 
 
 
 ul#discography-list > li > ul > li.purchase-songs-sites {
 	position: absolute;
-	bottom: -21px;
+	bottom: -24px;
 	left: 20px;
 	font-size: .8em;
 } 
