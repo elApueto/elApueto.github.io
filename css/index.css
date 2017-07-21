@@ -192,7 +192,7 @@ ul#discography-list > li#border b {
 ul#discography-list > li > div.album-art {
 	height: 100%;
 	width: 60px; /*square*/
-	background-color: white;	
+	background-color: black;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
