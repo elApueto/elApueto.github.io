@@ -234,12 +234,17 @@ ul#discography-list >  li > ul.album-details > li {
 
 ul#discography-list >  li > ul.album-details > li.album, 
 ul#discography-list >  li > ul.album-details > li.track,
-ul#discography-list >  li > ul.album-details > li.album-role,
-ul#discography-list >  li > ul.album-details > li.track-role, 
 ul#discography-list >  li > ul.album-details > li.youtube-category
 {
 	font-size: .8em;
 }
+
+ul#discography-list >  li > ul.album-details > li.genre,
+ul#discography-list >  li > ul.album-details > li.album-role,
+ul#discography-list >  li > ul.album-details > li.track-role {
+	font-size: .6em;
+} 
+
 
 ul#discography-list > li > ul > li.purchase-songs-sites {
 	position: absolute;
