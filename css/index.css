@@ -72,6 +72,22 @@ div#music-container {
 	display: none;
 }
 
+div#music-container > #music-shop-links {
+	font-size: .8em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div#music-container > #music-shop-links > a {
+	height: 20px;
+	margin-left: 5px;
+}
+
+div#music-container > #music-shop-links > a > img {
+	height: 100%;
+}
+
 ul#music-controls {
 	width: 40%;
 	margin: 10% 0;
@@ -187,7 +203,6 @@ ul#discography-list > li#border {
 ul#discography-list > li#border b {
 	margin: auto 10px auto 10px;
 }
-
 
 ul#discography-list > li > div.album-art {
 	height: 100%;
