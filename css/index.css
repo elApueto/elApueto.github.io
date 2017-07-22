@@ -74,6 +74,7 @@ div#music-container {
 
 div#music-container > #music-shop-links {
 	font-size: .8em;
+	margin: 1em 0 1em 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -178,8 +179,8 @@ ul#discography-list a:hover {
 
 ul#discography-list > li {
 	width: 100%;
-	height: 60px;
-	margin-bottom: 11%;/*5*/
+	height: 70px;
+	margin-bottom: 5%;/*5*/
 	display: flex;
 }
 
@@ -192,7 +193,7 @@ ul#discography-list > li.youtube-playlist {
 }
 
 ul#discography-list > li#border {
-	margin-top: 30px;
+	margin-top: 25px;
 	margin-bottom: 0;
 	font-size: .9em;
 	display: flex;
@@ -206,7 +207,7 @@ ul#discography-list > li#border b {
 
 ul#discography-list > li > div.album-art {
 	height: 100%;
-	width: 60px; /*square*/
+	width: 70px; /*square*/
 	background-color: black;	
 	display: flex;
 	justify-content: center;
