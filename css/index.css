@@ -150,8 +150,7 @@ ul#track-list > li > div.track-title:hover {
 
 ul#track-list > li > div.track-title > span.title {
 	width: 100%;
-	display: flex;
-	align-items: center;
+	display: block;
 }
 
 ul#track-list > li > div.track-title > span.genre {
