@@ -210,7 +210,7 @@
 
 	ul#discography-list >  li > ul.album-details > li.album, ul#discography-list >  li > ul.album-details > li.genre,
 	ul#discography-list >  li > ul.album-details > li.album-role, ul#discography-list >  li > ul.album-details > li.youtube-category {
-		font-size: 2.4em;
+		font-size: 2em;
 	}
 
 	ul#discography-list > li > ul > li.purchase-songs-sites {
@@ -218,12 +218,12 @@
 	}
 
 	ul#discography-list > li > ul > li.purchase-songs-sites img, div#music-container > #music-shop-links img {
-		height: 24px;
-		margin-right: 10px;
+		height: 27px;
+		margin-right: 14px;
 	}
 
 	ul#discography-list > li#border {
-		font-size: 2.4em;
+		font-size: 2.2em;
 	}
 
 	ul#links {
@@ -240,7 +240,11 @@
 
 	div#music-container > #music-shop-links {
 		height: 24px;
-		margin: 40px 0;
+		margin: 64px 0 41px 0;
+	}
+
+	div#music-container > #music-shop-links > a {
+		height: 35px;
 	}
 
 	ul#discography-list > li > ul > li.purchase-songs-sites {

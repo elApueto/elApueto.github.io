@@ -74,7 +74,7 @@ div#music-container {
 
 div#music-container > #music-shop-links {
 	font-size: .8em;
-	margin: 1em 0 1em 0;
+	margin: 2.5em 0 1em 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -201,7 +201,7 @@ ul#discography-list > li#border {
 }
 
 ul#discography-list > li#border b {
-	margin: auto 10px auto 10px;
+	margin: auto 10px auto 8px;
 }
 
 ul#discography-list > li > div.album-art {
@@ -262,7 +262,7 @@ ul#discography-list > li > ul > li.purchase-songs-sites {
 
 ul#discography-list > li > ul > li.purchase-songs-sites img {
 	height: 14px;
-	margin-right: 3px;
+	margin-right: 5px;
 }
 
 ul#discography-list > li > ul > li.purchase-songs-sites a {
